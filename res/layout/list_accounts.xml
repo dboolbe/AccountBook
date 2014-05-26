@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/list_accounts_header"
+            android:clickable="true"
+            android:background="@drawable/background_states"
+            android:paddingLeft="8dip"
+            android:paddingRight="8dip"
+            android:paddingTop="8dip"
+            android:paddingBottom="8dip">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/list_accounts_title"
+                android:paddingTop="4dip"
+                android:paddingBottom="2dip"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/list_accounts_caption"
+                android:paddingTop="2dip"
+                android:paddingBottom="4dip"
+                android:paddingLeft="4dip"
+                android:textSize="14dp"/>
+
+    </LinearLayout>
+
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@android:id/list"
+            style="?android:attr/listViewWhiteStyle"/>
+
+    <!-- This is the view that is used to replace an empty list view. -->
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_list_of_accounts"
+            android:id="@android:id/empty"/>
+
+</LinearLayout>

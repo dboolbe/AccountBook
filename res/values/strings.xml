@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AccountBook</string>
+    <string name="empty_list_of_accounts">There are currently no accounts.</string>
+
+    <string name="list_accounts_title">New Account</string>
+    <string name="list_accounts_caption">Add a new account</string>
+
+    <string name="list_accounts_dialog_title">Account Title</string>
+    <string name="list_accounts_dialog_message">Account Message</string>
+
+    <string name="add_account_title">Add Account</string>
+    <string name="edit_account_title">Edit Account</string>
+    <string name="add_edit_account_type">Type:</string>
+    <string-array name="add_edit_account_type">
+        <item>Savings</item>
+        <item>Checking</item>
+        <item>Credit Card</item>
+    </string-array>
+    <string name="add_edit_account_nickname">Nickname:</string>
+    <string name="add_edit_account_nickname_hint">nickname</string>
+    <string name="add_edit_account_amount">Amount:</string>
+    <string name="add_edit_account_amount_hint">$0.00</string>
+
+    <string name="list_transactions_title">New Transaction</string>
+    <string name="list_transactions_caption">Add a new transaction</string>
+
+    <string name="list_transactions_dialog_title">Transaction Title</string>
+    <string name="list_transactions_dialog_message">Transaction Message</string>
+
+    <string name="add_transaction_title">Add Transaction</string>
+    <string name="edit_transaction_title">Edit Transaction</string>
+    <string name="add_edit_transaction_transaction_type">Transaction Type:</string>
+    <string-array name="add_edit_transaction_transaction_type">
+        <item>STANDARD</item>
+        <item>TRANSFER</item>
+    </string-array>
+    <string name="add_edit_transaction_account">Account:</string>
+    <string name="add_edit_transaction_date">Date:</string>
+    <string name="add_edit_transaction_date_hint">MM/dd/yyyy</string>
+    <string name="add_edit_transaction_payee">Payee:</string>
+    <string name="add_edit_transaction_payee_hint">payee</string>
+    <string name="add_edit_transaction_payer">Payer:</string>
+    <string name="add_edit_transaction_payer_hint">payer</string>
+    <string name="add_edit_transaction_account_payee">To Account:</string>
+    <string name="add_edit_transaction_account_payer">From Account:</string>
+    <string name="add_edit_transaction_type">Type:</string>
+    <string-array name="add_edit_transaction_type">
+        <item>DEBIT</item>
+        <item>CREDIT</item>
+    </string-array>
+    <string name="add_edit_transaction_amount">Amount:</string>
+    <string name="add_edit_transaction_amount_hint">$0.00</string>
+    <string name="add_edit_transaction_memo">Memo:</string>
+    <string name="add_edit_transaction_memo_hint">memo</string>
+    <string name="add_edit_transaction_initial_balance">Initial Balance</string>
+    <string name="add_edit_transaction_internal_transfer">Internal Transfer</string>
+
+    <string name="confirm_delete_account_title">Confirm Account Deletion</string>
+    <string name="confirm_delete_transaction_title">Confirm Transaction Deletion</string>
+    <string name="confirm_delete_account_message">Please confirm that you want to delete the following account:</string>
+    <string name="confirm_delete_transaction_message">Please confirm that you want to delete the following
+        transaction:
+    </string>
+
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="date_format">MMM/dd/yyyy</string>
+</resources>

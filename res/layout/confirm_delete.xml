@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/confirm_delete_footer">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/confirm_delete_title"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal"
+                android:textSize="26dp"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:background="#FF00FF00"
+                android:layout_below="@+id/confirm_delete_title"
+                android:id="@+id/confirm_delete_hr"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/confirm_delete_message"
+                android:layout_below="@+id/confirm_delete_hr"
+                android:layout_alignParentBottom="true"
+                android:textSize="20dp"/>
+
+    </RelativeLayout>
+
+    <!--<TableLayout -->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/confirm_delete_footer">-->
+
+
+    <TableLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/buttonStyle"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/confirm_delete_footer">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:id="@+id/confirm_delete_delete_button"
+                style="?android:attr/button"/>
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:id="@+id/confirm_delete_cancel_button"
+                style="?android:attr/button"/>
+    </TableLayout>
+
+    <!--</TableLayout>-->
+
+</RelativeLayout>
